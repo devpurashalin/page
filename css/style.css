@@ -1,0 +1,181 @@
+/* Navbar Start */
+nav {
+    background-color: #4696ff;
+}
+
+.profile {
+    position: relative;
+}
+
+.profile-dropdown {
+    padding: 10px;
+    background-color: grey;
+    position: absolute;
+    display: none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    .profile-dropdown {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .profile-dropdown {
+        left: 0;
+    }
+}
+
+.profile:hover .profile-dropdown {
+    display: block;
+}
+
+/* Navbar End */
+/* Home Start */
+#home {
+    padding: 80px 0;
+    background: linear-gradient(rgb(70, 150, 255), rgb(70, 75, 255));
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+#home .h3 {
+    color: blue;
+}
+
+.card {
+    background-color: aliceblue;
+}
+
+.card i {
+    margin: 0 3px;
+    background-color: #4696ff;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 60px;
+}
+
+.card .btn {
+    padding: 10px;
+    border-radius: 60px;
+    background-color: #4696ff;
+    color: aliceblue;
+    border: 0;
+}
+
+.search-bar {
+    background-color: aliceblue;
+    align-items: center;
+    border-radius: 60px;
+}
+
+.search-bar input {
+    outline: none;
+}
+
+.search-bar button {
+    color: aliceblue;
+    background-color: #4696ff;
+    border-radius: 60px;
+}
+
+/* Home End */
+/* Topics Start */
+#topics {
+    padding: 70px 0;
+}
+
+#topics .hello {
+    padding: 20px 0;
+    display: none;
+}
+
+#topics #Design {
+    display: block;
+}
+
+#topics #design {
+    border-bottom: 4px solid #4696ff;
+    color: #4696ff;
+}
+
+/* Topics End */
+/* Works Start */
+.works {
+    background: url(https://images.unsplash.com/photo-1579444741963-5ae219cfe27c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#works {
+    text-align: center;
+    background-color: rgb(168, 218, 255);
+    opacity: 0.8;
+    padding: 70px 0;
+    color: black;
+}
+
+#works .icon1 {
+    width: 65%;
+    margin: auto;
+    z-index: 4;
+}
+
+#works .icon1-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    z-index: 4;
+    padding: 20px;
+}
+
+#works .icon1-content i {
+    padding: 20px;
+    height: 10%;
+    background-color: #4696ff;
+    border-radius: 100%;
+}
+
+#works .icon1-content1 {
+    width: 70%;
+}
+
+#works .icon1-content span {
+    width: 10px;
+    border-left: 10px solid #4696ff;
+    display: block;
+    height: calc(100% + 1000%);
+}
+
+#works .learn {
+    margin: 3%;
+}
+
+#works .learn button {
+    background-color: transparent;
+    border-radius: 60px;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+#works .learn a {
+    text-decoration: none;
+    color: blue;
+}
+
+.icon1-content * {
+    box-sizing: content-box !important;
+}
+
+/* Works End */
+
+#contact {
+    padding: 75px 0;
+    background-color: lightyellow;
+}
+
+footer {
+    background-color: aliceblue;
+}
